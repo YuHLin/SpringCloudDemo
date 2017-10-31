@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_server/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudzuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_zuul/pom.xml" />
       </list>
     </option>
   </component>

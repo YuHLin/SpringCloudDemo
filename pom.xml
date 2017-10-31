@@ -10,6 +10,8 @@
 
     <modules>
         <module>springcloud_server</module>
+        <module>springcloud_client</module>
+        <module>springcloud_zuul</module>
     </modules>
 
 </project>

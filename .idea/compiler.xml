@@ -8,13 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud_client" />
         <module name="springcloud_server" />
+        <module name="springcloud_zuul" />
         <module name="SpringCloudDemo" />
+        <module name="springcloudzuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="springcloud_client" target="1.8" />
       <module name="springcloud_server" target="1.8" />
+      <module name="springcloud_zuul" target="1.8" />
       <module name="SpringCloudDemo" target="1.5" />
+      <module name="springcloudzuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
