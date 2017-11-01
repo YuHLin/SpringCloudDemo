@@ -10,6 +10,10 @@
         <module name="springcloud_client2" />
         <module name="springcloud_feign" />
         <module name="springcloud_server" />
+        <module name="springcloud_server-a" />
+        <module name="springcloud_server-b" />
+        <module name="springcloud_service-a" />
+        <module name="springcloud_service-b" />
         <module name="springcloud_zuul" />
         <module name="SpringCloudDemo" />
         <module name="springcloudzuul" />
@@ -20,6 +24,10 @@
       <module name="springcloud_client2" target="1.8" />
       <module name="springcloud_feign" target="1.8" />
       <module name="springcloud_server" target="1.8" />
+      <module name="springcloud_server-a" target="1.8" />
+      <module name="springcloud_server-b" target="1.8" />
+      <module name="springcloud_service-a" target="1.8" />
+      <module name="springcloud_service-b" target="1.8" />
       <module name="springcloud_zuul" target="1.8" />
       <module name="SpringCloudDemo" target="1.5" />
       <module name="springcloudzuul" target="1.8" />

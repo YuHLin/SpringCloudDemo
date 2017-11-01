@@ -12,6 +12,10 @@
         <module>springcloud_server</module>
         <module>springcloud_client</module>
         <module>springcloud_zuul</module>
+        <module>springcloud_client2</module>
+        <module>springcloud_feign</module>
+        <module>springcloud_service-a</module>
+        <module>springcloud_service-b</module>
     </modules>
 
 </project>
