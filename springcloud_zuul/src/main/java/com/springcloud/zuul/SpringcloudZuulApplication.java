@@ -1,5 +1,6 @@
 package com.springcloud.zuul;
 
+import com.springcloud.zuul.filter.PreZuulFilter;
 import com.springcloud.zuul.provider.ServiceConsumerFallbackProvider;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,5 +24,10 @@ public class SpringcloudZuulApplication {
 	public ZuulFallbackProvider routeDemoServiceZuulFallbackProvider() {
 		ServiceConsumerFallbackProvider routeZuulFallback = new ServiceConsumerFallbackProvider();
 		return routeZuulFallback;
+	}
+
+	@Bean
+	public PreZuulFilter preZuulFilter(){
+		return new PreZuulFilter();
 	}
 }
