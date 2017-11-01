@@ -8,14 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableEurekaClient
-@RestController
-@RequestMapping("demo")
 public class SpringcloudClientApplication {
-
-	@RequestMapping("/test")
-	public String Demo(){
-		return "Spring Cloud Demo!";
-	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringcloudClientApplication.class, args);
