@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud_client" />
+        <module name="springcloud_client2" />
+        <module name="springcloud_feign" />
         <module name="springcloud_server" />
         <module name="springcloud_zuul" />
         <module name="SpringCloudDemo" />
@@ -15,6 +17,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="springcloud_client" target="1.8" />
+      <module name="springcloud_client2" target="1.8" />
+      <module name="springcloud_feign" target="1.8" />
       <module name="springcloud_server" target="1.8" />
       <module name="springcloud_zuul" target="1.8" />
       <module name="SpringCloudDemo" target="1.5" />
