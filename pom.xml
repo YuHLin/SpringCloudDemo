@@ -16,6 +16,8 @@
         <module>springcloud_feign</module>
         <module>springcloud_service-a</module>
         <module>springcloud_service-b</module>
+        <module>springcloud_config</module>
+        <module>springcloud_config_client</module>
     </modules>
 
 </project>
